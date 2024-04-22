@@ -1,0 +1,9 @@
+create database project;
+use project;
+create table login_details(username varchar(100) primary key, password varchar(100));
+create table admin_field(field varchar(30) , jobs varchar(30));
+create table admin_itsubfield(company varchar(30) , subfield varchar(30) ,experience int ,contact varchar(50));
+create table admin_designsubfield(company varchar(30) , subfield varchar(30) ,experience int ,contact varchar(50));
+create table admin_managementsubfield(company varchar(30) , subfield varchar(30) ,experience int ,contact varchar(50));
+create table user_info(name varchar(50) , phone_no bigint , experience varchar(50) , field varchar(10) , username varchar(40));
+insert into login_details values("shreyas_admin","advanced_academy");
